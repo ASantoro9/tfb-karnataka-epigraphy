@@ -8,21 +8,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Encoding template for inscription</title>
-                <!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
-                <!-- Add your name in the respStmt matching your involvement -->
+                <title>DHARMA_INSKarnataka00001</title>
                 <respStmt>
                     <resp>EpiDoc Encoding</resp>
-                    <!-- Work done in the file, e.g. editor ...-->
-                    <persName ref="part:ants"><!-- Update the id -->
+                    <persName ref="part:ants">
                         <forename>Antonella</forename>
                         <surname>Santoro</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
                     <resp>intellectual authorship of edition</resp>
-                    <!-- This may be the same as the creator of the file -->
-                    <persName ref="part:ants"><!-- Update the id -->
+                    <!-- Rao Bahadur C.R.Krishnamacharlu the general editor of the catalogue SII that I am working on -->
+                    <persName ref="part:ants">
                         <forename>Antonella</forename>
                         <surname>Santoro</surname>
                     </persName>
@@ -30,9 +27,8 @@
             </titleStmt>
             <publicationStmt>
                 <authority>DHARMA</authority>
-                <pubPlace><!-- Fill in here the place or places where the encoding has been done --></pubPlace>
+                <pubPlace>Napoli</pubPlace>
                 <idno type="filename">DHARMA_INSKarnataka00001</idno>
-                <!-- Replace by filename, e.g. Pallava00001 -->
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
                         <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -41,19 +37,19 @@
                             Creative Commons, 444 Castro Street, Suite 900, Mountain View,
                             California, 94041, USA.</p>
                         <p>Copyright (c) 2019-2025 by John
-                            Doe.</p><!-- replace year and name, use format "Forename1 Surname1 & Forename2 Surname2" or "Forename1 Surname1, Forename2 Surname2 & Forename3 Surname3"  if necessary — the copyright is that of the encoder(s) -->
+                            Doe.</p>
                     </licence>
                 </availability>
-                <date from="2019" to="2025">2019-2025</date>
+                <date when="2024-01-26">2024-01-26</date>
             </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+            <sourceDesc>
+                <msDesc>
                     <msIdentifier>
                         <repository>DHARMAbase</repository>
-                        <idno/><!-- don't modify this -->
+                        <idno/>
                     </msIdentifier>
-                    <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    <msContents>
+                        <summary>this inscription is referd to the reign of Tribhuvanamalladēva (Vikramāditya VI)and records the gift of land made by Muṇḍeyara Śrīvanta Gāvuṇḍa to Nīlakaṇṭha Paṇḍitadēva, for the benefit of the temple of Mūlasthānadēva, built by him in the centre of the southern quarter of Narayaṅgal. At the time of recording the grant the Sinda Mahāmaṇḍalēśvara Permāḍidēvarasa was ruling over Kisukāḍu Seventy, Keḷavāḍi Three-Hundred, Bāgaḍage Seventy and Narayaṅgal Twelve, from his capital Erambarage. The inscription is dated Śaka 872, Śaumya, Puṣya, śu. puṇṇami, Monday, lunar eclipse, Uttarāyaṇa-saṅkrānti</summary> 
                     </msContents>
                     <physDesc>
                         <handDesc>
